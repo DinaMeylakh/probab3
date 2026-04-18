@@ -6,9 +6,9 @@ Created By: Dina Meylakh
 
 A command line tool to sample 3 body properties within clusters using probability density fuctions for different distributions. 
 
-Based on the [Meylakh, Stone & Leigh 2026]() paper and many others. View all references within the paper. 
+Based on the [Meylakh, Stone & Leigh 2026]() paper. View all references within the paper. 
 
-For version history and information, see the [changelog](https://github.com/dinamll9/probab3/blob/main/CHANGELOG.md).
+For version history and information, see the [changelog](https://github.com/DinaMeylakh/probab3/blob/main/CHANGELOG.md).
 
 ## Sampling Algorithm Overview
 
@@ -67,7 +67,7 @@ flowchart TB
 2. Install the probab3 command line tool via pipx
 
 ```
-pipx install git@github.com:dinamll9/probab3.git#latest
+pipx install git@github.com:DinaMeylakh/probab3.git#latest
 ```
 *Comment*: To install a specific version, instead of latest, write the relevant version tag.
 
@@ -88,7 +88,7 @@ You are using probab3 version 0.1.0
 Optional. To use probab3 as a python package, for custom cookbooks for example, one must install it as a package via pip.
 
 ```
-pip install git+https://github.com/dinamll9/probab3.git#latest
+pip install git+https://github.com/DinaMeylakh/probab3.git#latest
 ```
 
 You can check the installation is successful by the following steps:
@@ -202,7 +202,7 @@ You can close the window to continue using your shell.
 
 You can view the probab3 log file by tailing `proabab3.log`.
 
-For example for linux baised systems:
+For example for linux based systems:
 ```bash
 tail -f probab3.log
 ```
@@ -217,7 +217,7 @@ Get-Content -Path "probab3.log" -Tail 10 -Wait
 
 # Documentation
 
-For advanced runs and more information, please visit the [documentation](https://dinamll9.github.io/probab3/).
+For advanced runs and more information, please visit the [documentation](https://DinaMeylakh.github.io/probab3/).
 
 You can find there information about:
 1. [Using the command line tool](./probab3.html#command-line-usage)
@@ -239,7 +239,7 @@ In case you want to tinker with the source code or are looking to contribute, yo
 4. Clone the probab3 repository to a directory on your local computer
 
 ```bash
-git clone https://github.com/dinamll9/probab3.git
+git clone https://github.com/DinaMeylakh/probab3.git
 ```
 
 5. Install the project dependencies with poetry
@@ -255,7 +255,7 @@ poetry run probab3 <command>
 ```
 
 # Contribute
-The open source license for this repository is the [MIT license](https://github.com/dinamll9/probab3/blob/main/LICENSE.md).
+The open source license for this repository is the [MIT license](https://github.com/DinaMeylakh/probab3/blob/main/LICENSE.md).
 
 Bug fixes and new features are more than welcome. 
 

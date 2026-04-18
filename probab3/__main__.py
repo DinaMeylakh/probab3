@@ -69,8 +69,8 @@ def show_stats(input_path, n, outcomes, verbose, merger_only, manual_exchange):
         click.echo(manual_exchange_stats.get_manual_exchange_stats(input_path, verbose=verbose))
 
 @cli.command(name='run-cookbook', help='run a certain cookbook script. See () for more information about this command.')
-@click.option('--input-path', default='probab3/cookbook/measure_aHB.py', help='input dir path of the file to run.')
-@click.option('--module-name', default='measure_aHB', help='The python module name to run, omit .py suffix.')
+@click.option('--input-path', default='probab3/cookbook/equal_mass_in_sub_cluster.py', help='input dir path of the file to run.')
+@click.option('--module-name', default='equal_mass_in_sub_cluster', help='The python module name to run, omit .py suffix.')
 @click.option('--plot', is_flag=True, default=False, help='Plot the results.')
 @click.option('--option', default=None, help='Provide an option to either run or plot')
 @click.option('--merge-files', is_flag=True, default=False, help='Merge the data files and exit.')
