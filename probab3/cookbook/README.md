@@ -31,27 +31,27 @@ Function to merge multiple data files (useful for parallel runs).
 
 Use the `probab3 run-cookbook` command to execute cookbooks:
 
-#### Basic Run
+Basic Run:
 ```bash
 probab3 run-cookbook --input-path equal_mass/equal_mass_in_sub_cluster.py --module-name equal_mass_in_sub_cluster
 ```
 
-#### Run with Plotting
+Run with Plotting:
 ```bash
 probab3 run-cookbook --input-path unequal_mass/unequal_mass_bbh.py --module-name unequal_mass_bbh --plot
 ```
 
-#### Run with Specific Option
+Run with Specific Option:
 ```bash
 probab3 run-cookbook --input-path equal_mass/equal_mass_in_sub_cluster.py --module-name equal_mass_in_sub_cluster --option fast
 ```
 
-#### Merge Files
+Merge Files:
 ```bash
 probab3 run-cookbook --input-path unequal_mass/unequal_mass_bbh.py --module-name unequal_mass_bbh --merge-files
 ```
 
-#### Plot with Option
+Plot with Option:
 ```bash
 probab3 run-cookbook --input-path unequal_mass/unequal_mass_bbh.py --module-name unequal_mass_bbh --plot --option masses
 ```
