@@ -1,7 +1,6 @@
 #!/usr/bin/python
 
 import click
-import pkg_resources
 from probab3.commands.common.formulas.general import *
 from probab3.commands.common.constants import *
 from probab3.commands.common.general_code import *
