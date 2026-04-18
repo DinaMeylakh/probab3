@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "probab3"
+version = "0.1.0"
+description = "A command line tool to sample 3 body properties within clusters using probability density fuctions for different distributions."
+authors = ["Dina Meylakh <dina.mll.9@gmail.com>"]
+readme = "README.md"
+packages = [{include = "probab3"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+click = "^8.1.3"
+numpy = "^1.24.2"
+scipy = "^1.10.1"
+matplotlib = "^3.7.1"
+click-log = "^0.4.0"
+colorama = "^0.4.6"
+pytest = "^7.4.2"
+pytest-mock = "^3.11.1"
+pdoc3 = "^0.10.0"
+pdoc = "^14.1.0"
+torchquad = "^0.4.0"
+torch = "^2.1.0"
+numba = "^0.58.1"
+ijson = "^3.2.3"
+pandas = "^2.2.0"
+numpyencoder = "^0.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+probab3 = "probab3.__main__:cli"

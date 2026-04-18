@@ -1,0 +1,8 @@
+sample_*.json
+*.log
+*.pyc
+*.json
+*.jsonl
+*.zip
+slurm-*.out
+*.code-workspace
