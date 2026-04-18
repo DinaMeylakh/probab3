@@ -67,7 +67,7 @@ flowchart TB
 2. Install the probab3 command line tool via pipx
 
 ```
-pipx install git@github.com:DinaMeylakh/probab3.git#latest
+pipx install git+https://github.com/DinaMeylakh/probab3.git#latest
 ```
 *Comment*: To install a specific version, instead of latest, write the relevant version tag.
 
@@ -79,7 +79,7 @@ pipx install git@github.com:DinaMeylakh/probab3.git#latest
 
 This should return in yellow:
 ```s
-You are using probab3 version 0.1.0
+You are using probab3 version 1.0.0
 ```
 
 
