@@ -217,12 +217,10 @@ Get-Content -Path "probab3.log" -Tail 10 -Wait
 
 # Documentation
 
-For advanced runs and more information, please visit the [documentation](https://DinaMeylakh.github.io/probab3/).
-
-You can find there information about:
-1. [Using the command line tool](./probab3.html#command-line-usage)
-2. [Using the python package in code](./probab3.html#import-usage)
-3. [Running cookbooks](./probab3/cookbook.html)
+More information is available about:
+1. [Using the command line tool](https://github.com/DinaMeylakh/probab3/blob/main/documentation/pages/CMD_USAGE.md)
+2. [Using the python package in code](https://github.com/DinaMeylakh/probab3/blob/main/documentation/pages/IMPORT_USAGE.md)
+3. [Running cookbooks](https://github.com/DinaMeylakh/probab3/blob/main/probab3/cookbook/README.md)
 
 
 # Development
